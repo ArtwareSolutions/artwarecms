@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.7'
 gem 'locomotive_cms', :git => 'git://github.com/locomotivecms/engine.git', :require => 'locomotive/engine'
 gem 'unicorn', :group => 'development'
+gem 'dalli'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
