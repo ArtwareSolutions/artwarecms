@@ -4,6 +4,7 @@ gem 'rails', '3.0.7'
 gem 'locomotive_cms', :git => 'git://github.com/locomotivecms/engine.git', :require => 'locomotive/engine'
 gem 'unicorn', :group => 'development'
 gem 'dalli'
+gem 'newrelic_rpm'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

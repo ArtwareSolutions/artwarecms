@@ -158,6 +158,7 @@ GEM
       tzinfo (~> 0.3.22)
       will_paginate (~> 3.0.pre)
     net-ssh (2.0.24)
+    newrelic_rpm (3.0.0)
     nokogiri (1.4.3.1)
     open4 (1.0.1)
     polyglot (0.3.1)
@@ -208,5 +209,6 @@ PLATFORMS
 DEPENDENCIES
   dalli
   locomotive_cms!
+  newrelic_rpm
   rails (= 3.0.7)
   unicorn
